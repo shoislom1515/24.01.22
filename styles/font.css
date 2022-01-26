@@ -10,3 +10,28 @@
     font-weight: 700;
     font-style: italic;
 }
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/montserrat/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Trebuched";
+    src: url(../fonts/trebuchet/Trebuchet-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Trebuched";
+    src: url(../fonts/trebuchet/TrebuchetMS-Bold.ttf);
+    font-weight: 700;
+}
