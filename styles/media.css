@@ -9,3 +9,12 @@
         content: url(../images/logo-light.png);
     }
 }
+
+@media (max-width:992px){
+.header__button,
+.header__tel{
+    margin: 0;
+    margin-bottom: 20px;
+}
+    
+}
