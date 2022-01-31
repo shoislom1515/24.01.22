@@ -10,8 +10,8 @@
     --primary-title-color:#7177F1;
     --secondary-title-color:#FFFFFF;
     --secondary-title-color-alt:#151437;
-    --secondary-link-color:#7177F1;
-    --primary-link-color:#FFFFFF;
+    --primary-link-color:#7177F1;
+    --secondary-link-color:#FFFFFF;
 }
 
 body{
@@ -24,4 +24,61 @@ body{
 
 .logo::before{
     content: url(../images/logo-light.png);
+}
+
+.header__link{
+    color: var(--primary-link-color);
+    margin: 15px;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.5s color;
+    display: block;
+}
+
+.header__link:hover{
+    color: var(--secondary-text-color);
+}
+
+.header__button{
+    height: 40px;
+    width: 190px;
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-link-color);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 24px;
+    transition: 0.5s color, 0.5s background;
+    margin-left: 15px;
+    margin-right: 60px;
+}
+
+.header__button:hover{
+    color: var(--primary-link-color);
+    background: var(--primary-background);
+}
+
+.header__tel{
+    color: var(--primary-link-color);
+    font-size: 25px;
+    transition: 0.5s color, 0.5s text-shadow;
+}
+
+
+.header__tel:hover{
+    color: var(--secondary-link-color);
+    text-shadow: 0 0 15px;
+}
+
+.header__toggler {
+     color: var(--primary-text-color);
+     font-size: 35px;
+}
+
+.header__toggler:focus {
+    box-shadow: none;
+
 }
