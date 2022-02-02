@@ -142,6 +142,8 @@ body{
 
 .intro__image {
     max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .intro__indicators {
@@ -166,4 +168,94 @@ body{
 
 .carousel__dot.active {
     background: #7177F1;
+}
+
+.about {
+    margin-top: 75px;
+
+}
+
+.about__left {
+    position: relative;
+}
+
+.about__image {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.about__slogan {
+    background: var(--secondary-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(113, 119, 241, 0.5);
+    border-radius: 8px;
+    position: absolute;
+    width: 190px;
+    height: 65px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+.about__mark {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #0fdac2;
+    top: -14px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about__right {
+    background: var(--primary-background);
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.about__title {
+    margin-bottom: 20px;
+    color: var(--primary-title-color);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.75;  
+    text-transform: capitalize; 
+}
+
+.about__text {
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.about__button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-background);
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    border-radius: 8px;
+    height: 45px;
+    width: 190px;
+    font-size: 18px;
+    color: var(--secondary-link-color);
+    text-transform: uppercase;
+    transition: 0.5s color, 0.5s background;
+}
+
+.about__button:hover {
+    background: var(--primary-background);
+    color: var(--primary-text-color);
 }
